@@ -1,0 +1,32 @@
+# Python / Backend
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+.npm
+dist/
+frontend/dist/
+
+# Android build outputs & local config
+.gradle/
+**/android/.gradle/
+**/android/app/build/
+**/android/capacitor-cordova-android-plugins/build/
+**/android/build/
+**/android/local.properties
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ensure root APK is tracked
+!PetDiseaseAnalyzer-v1.0.0-debug.apk
